@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.startechnical">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StarTechnical">
+        <activity android:name=".Common.LoginDashboard_C"></activity>
+        <activity android:name=".Main_Classes.DocumentseeOncliked" />
+        <activity android:name=".Main_Classes.AdminProfiles" />
+        <activity android:name=".Main_Classes.FireBase_Logins" />
+        <activity android:name=".Common.SignupActivity" />
+        <activity android:name=".Main_Classes.DocumentsRecycleShow" />
+        <activity android:name=".Main_Classes.AddSpecialcustomer" />
+        <activity android:name=".Main_Classes.ManagSpecialCustomer" />
+        <activity android:name=".Main_Classes.Manage_Documents_D" />
+        <activity android:name=".Main_Classes.AddFinance" />
+        <activity android:name=".Main_Classes.Manage_Finance_D" />
+        <activity android:name=".Main_Classes.Add_Employee" />
+        <activity android:name=".Main_Classes.Manage_Profile_D" />
+        <activity android:name=".Main_Classes.AddTasks" />
+        <activity android:name=".Main_Classes.Manage_Tasks_D" />
+        <activity android:name=".Common.Dash_board_D" />
+        <activity android:name=".Common.onBoarding" />
+        <activity android:name=".Employee.EmployeDashboard" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

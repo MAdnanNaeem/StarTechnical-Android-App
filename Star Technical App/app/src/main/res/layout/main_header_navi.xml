@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:paddingLeft="15dp"
+    android:background="#808e95">
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/app_slogan"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/menu_prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/muhammad_arslan"
+        android:layout_above="@id/menu_slogan"
+        android:layout_marginBottom="15dp"
+        android:textSize="24sp"/>
+    <ImageView
+        android:id="@+id/Prof_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/prof_pic"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@id/menu_prof"
+        android:src="@drawable/logo"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="393dp"
+        android:layout_height="125dp"
+        android:layout_margin="10dp"
+        android:background="#EFF3F2"
+        android:padding="5dp"
+        app:cardBackgroundColor="#263238"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="106dp"
+                android:layout_height="70dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="88dp"
+                    android:layout_height="54dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    app:cardBackgroundColor="#00B8D4"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/Taskid"
+                        android:layout_width="71dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Ass_To"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="bottom|start|left|end"
+                    android:text="Assign To"
+                    android:textColor="#00B8D4"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/AssignDate"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_horizontal|end"
+                    android:text="Date"
+                    android:textColor="#00B8D4"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/collasp" />
+
+        <ImageView
+            android:id="@+id/ImgTedit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="85dp"
+            app:srcCompat="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/ImgSC_message"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="85dp"
+            app:srcCompat="@drawable/messange" />
+
+        <ImageView
+            android:id="@+id/ImgSC_Adress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="85dp"
+            app:srcCompat="@drawable/location" />
+
+        <ImageView
+            android:id="@+id/ImgSC_Call"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="85dp"
+            app:srcCompat="@drawable/phone" />
+
+        <ImageView
+            android:id="@+id/ImgT_Del"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="85dp"
+            app:srcCompat="@drawable/delete" />
+
+        <ImageView
+            android:id="@+id/img_plusagain"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/back" />
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--  >-->
+
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardElevation="10dp"-->
+<!--        app:cardUseCompatPadding="false"-->
+<!--        app:cardCornerRadius="20dp"-->
+<!--        android:background="#EFF3F2"-->
+<!--        android:padding="5dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        app:cardBackgroundColor="#263238">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="99dp"-->
+<!--            android:layout_height="134dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/Taskid"-->
+<!--                android:layout_width="334dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:layout_weight="2"-->
+<!--                android:gravity="center_horizontal|center_vertical"-->
+<!--                android:text="TextView">-->
+
+<!--            </TextView>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="290dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="100dp">-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="27dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="9"-->
+<!--                android:orientation="vertical">-->
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Ass_To"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_marginStart="15dp"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:gravity="center_horizontal|center_vertical"-->
+<!--                    android:text="TextView" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/AssignDate"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_marginStart="15dp"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:gravity="center_horizontal|center_vertical"-->
+<!--                    android:text="TextView" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ImgTedit"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="57dp"-->
+<!--                    app:srcCompat="@drawable/edit" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ImgT_Del"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:srcCompat="@drawable/delete" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ImgSC_Call"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="53dp"-->
+<!--                    app:srcCompat="@drawable/phone" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ImgSC_Adress"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="63dp"-->
+<!--                    app:srcCompat="@drawable/location" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+<!--</LinearLayout>-->
+

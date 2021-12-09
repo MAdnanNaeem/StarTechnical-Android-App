@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Star Technical</string>
+    <string name="logo_name">Star Technical</string>
+    <string name="powered_by">Powered By: M Adnan Naeem</string>
+    <string name="app_slogan">Dedicated to serve our customers</string>
+
+
+    <!-- Slides_Titles_Strings -->
+    <string name="add_task_slide_title">MANAGE YOUR TASKS</string>
+    <string name="profile_info_slide_title">MANAGE PROFILES</string>
+    <string name="search_in_app_slide_title">SEARCH DATA</string>
+    <string name="employee_performance_slide_title">MANAGE PERFORMANCES</string>
+    <string name="finance_slide_title">MANAGE YOUR FINANCE</string>
+
+
+    <!-- Slides_Descriptions_Strings -->
+
+    <string name="app_logo">app_logo</string>
+    <string name="splashscreen_background">splashscreen_background</string>
+    <string name="add_task_slide_desc">Admin can create new tasks and assign them to employees and also can delete any task.</string>
+    <string name="profile_info_slide_desc">Admin can access, delete and update all the profiles info. Employee can also update their general profile information.</string>
+    <string name="search_in_app_slide_desc">User can search employees, tasks and accessories from the store.</string>
+    <string name="employee_performance_slide_desc">Employees can see the performance of a month and the no. of tasks he/she has completed in current month. </string>
+    <string name="finance_slide_desc">Admin can track the profile, expenses per task and per month.</string>
+
+    <!-- onBoarding_Strings -->
+    <string name="let_get_started">LETS GET STARTED</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accessories">Accessories</string>
+    <string name="food_expense">Food Expense</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="total_profit">Total Profit</string>
+    <string name="star_technical">Star Technical</string>
+    <string name="expence" />
+    <string name="hi_admin">HI Admin</string>
+    <string name="prof_pic">Prof_pic</string>
+    <string name="enter_task_details">Enter Task Details</string>
+    <string name="enter_task_id">Task ID</string>
+    <string name="enter_task_assign_to">Task Assign To</string>
+    <string name="enter_task_assign_date">Task Assign Date</string>
+    <string name="enter_task_assign_time">Task Assign Time</string>
+    <string name="enter_first_bargin">First Bargin</string>
+    <string name="enter_client_name">Client Name</string>
+    <string name="enter_client_id">Client ID</string>
+    <string name="enter_client_address">Client Address</string>
+    <string name="enter_client_phon_no">Client Phon No</string>
+    <string name="enter_client_type">Client Type</string>
+    <string name="enter_issue_to_resolve">Issue To Resolve</string>
+    <string name="enter_feedback">FeedBack</string>
+    <string name="btn_add_task">Add Task</string>
+    <string name="btn_back_to_home">Back To Home</string>
+    <string name="update_tasks_info">Update Tasks Info</string>
+    <string name="update_task_id">Task ID</string>
+    <string name="update_assigned_to">Assigned To</string>
+    <string name="update_issue">Issue</string>
+    <string name="update_bargain_amount">Bargain Amount</string>
+    <string name="update_client_id">Client Id</string>
+    <string name="update_client_name">Client Name</string>
+    <string name="update_client_address">Client Address</string>
+    <string name="update_client_cell_no">Client cell no</string>
+    <string name="btn_update_info">Update Info</string>
+    <string name="foodexp">FoodExp</string>
+    <string name="petroll">Petroll</string>
+    <string name="acesories">Acesories</string>
+    <string name="totalexp">TotalExp</string>
+    <string name="totalprofit">TotalProfit</string>
+    <string name="add_task">Add Task</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="enter_adress">Enter Adress</string>
+    <string name="enter_phno">Enter PhNo</string>
+    <string name="customer_no">Customer No</string>
+    <string name="enter_cnic">Enter Cnic</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_special_customer_details">Enter Special Customer Details</string>
+    <string name="enter_passwrd">Enter Passwrd</string>
+    <string name="lets_startted">Lets Startted</string>
+    <string name="password">Password</string>
+    <string name="phon_no">Phon No</string>
+    <string name="set_password">Set PassWord</string>
+    <string name="see_admins">See Admins</string>
+    <string name="add_pic">Add Pic</string>
+    <string name="enter_filename">Enter FileName</string>
+    <string name="upload_pic">Upload Pic</string>
+    <string name="view_pics">View Pics</string>
+    <string name="well_come_admin">Well Come Admin</string>
+    <string name="textview">TextView</string>
+    <string name="update_admin">Update Admin</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="name">Name</string>
+    <string name="update_documents">Update Documents</string>
+    <string name="update_emplyee_name">Update Emplyee Name</string>
+    <string name="update_emp_age">Update Emp Age</string>
+    <string name="update_employee_roll">Update Employee Roll</string>
+    <string name="update_employee_salary">Update Employee Salary</string>
+    <string name="update_employee_phno">Update Employee PhNo</string>
+    <string name="update_employeeadress">Update EmployeeAdress</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="update_finace">Update Finace</string>
+    <string name="update_food">UPdate Food</string>
+    <string name="update_petroll">Update petroll</string>
+    <string name="update_acessories">Update Acessories</string>
+    <string name="update_total">Update Total</string>
+    <string name="update_taskno">Update TaskNo</string>
+    <string name="update_finance">Update Finance</string>
+    <string name="update_special_customer">Update Special Customer</string>
+    <string name="update_name">Update Name</string>
+    <string name="update_cnic">Update Cnic</string>
+    <string name="update_spno">Update SpNo</string>
+    <string name="update_sp_phno">Update Sp PhNo</string>
+    <string name="update_s_adress">Update S_Adress</string>
+    <string name="update_task_compleat">Update Task Compleat</string>
+    <string name="update_tasks">Update Tasks</string>
+    <string name="task_detail">Task Detail</string>
+    <string name="manage_tasks">Manage Tasks</string>
+    <string name="manage_profile">Manage Profile</string>
+    <string name="finance">Finance</string>
+    <string name="doucuments">Doucuments</string>
+    <string name="special_customer">Special Customer</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="share_us">Share Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="catogries">Catogries</string>
+    <string name="profile">Profile</string>
+    <string name="muhammad">Muhammad</string>
+    <string name="muhammad_arslan">Muhammad Arslan</string>
+
+
+</resources>

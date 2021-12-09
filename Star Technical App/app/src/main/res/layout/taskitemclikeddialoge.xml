@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#F1A407"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Titile"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/task_detail"
+                android:textColor="@color/purple_200"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/showTask_id"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_task_id" />
+
+            <TextView
+                android:id="@+id/showAss_To"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_task_assign_to" />
+
+            <TextView
+                android:id="@+id/show_Assign_date"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_task_assign_date" />
+
+            <TextView
+
+                android:id="@+id/show_Assi_Time"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_task_assign_time" />
+
+            <TextView
+
+                android:id="@+id/show_Barging"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_first_bargin" />
+
+            <TextView
+
+                android:id="@+id/showClient_name"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal"
+                android:hint="@string/enter_client_name" />
+
+            <TextView
+
+                android:id="@+id/showclient_no"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_client_id" />
+
+            <TextView
+
+                android:id="@+id/show_Adress"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_client_address" />
+
+            <TextView
+
+                android:id="@+id/show_Ph_No"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_client_phon_no" />
+
+            <TextView
+
+                android:id="@+id/showC_Type"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_client_type" />
+
+            <TextView
+
+                android:id="@+id/showTask_ishu"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_issue_to_resolve" />
+
+            <TextView
+
+                android:id="@+id/showFeed_Back"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#263238"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/enter_feedback" />
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/btn_back_to_home" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

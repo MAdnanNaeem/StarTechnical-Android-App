@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#F1A407">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/Titile"
+          android:layout_width="match_parent"
+          android:layout_height="65dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="15dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_weight="1"
+          android:textSize="16sp"
+          android:ems="10"
+          android:gravity="center_horizontal|center_vertical"
+          android:text="@string/enter_task_details"
+          android:textColor="@color/purple_200"
+          android:background="#263238"
+          android:textStyle="bold" />
+
+      <com.google.android.material.textfield.TextInputLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:hintTextAppearance="@style/Floating_hint_style">
+
+          <EditText
+              android:id="@+id/addTask_id"
+              android:layout_marginTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="65dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:inputType="phone"
+              android:gravity="center_horizontal"
+              android:hint="@string/enter_task_id" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_hintdesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+            android:id="@+id/Ass_To"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_task_assign_to" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+            android:id="@+id/T_Assign_date"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_task_assign_date"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+
+            android:id="@+id/t_Assi_Time"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="time"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_task_assign_time"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Task_bargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+
+            android:id="@+id/F_Barging"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_first_bargin"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+
+            android:id="@+id/Client_name"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_client_name"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+
+            android:id="@+id/client_no"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_client_id"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+
+            android:id="@+id/C_Adress"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_client_address"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+
+            android:id="@+id/C_Ph_No"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_client_phon_no"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/Floating_hint_style">
+
+        <EditText
+
+            android:id="@+id/C_Type"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/enter_client_type"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:hintTextAppearance="@style/Floating_hint_style">
+
+          <EditText
+
+              android:id="@+id/addTask_ishu"
+              android:layout_width="match_parent"
+              android:layout_height="115dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginRight="10dp"
+              android:gravity="center_horizontal"
+              android:hint="@string/enter_issue_to_resolve"
+              />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:hintTextAppearance="@style/Floating_hint_style">
+
+          <EditText
+
+              android:id="@+id/Feed_Back"
+              android:layout_width="match_parent"
+              android:layout_height="115dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginRight="10dp"
+              android:gravity="center_horizontal"
+              android:hint="@string/enter_feedback" />
+      </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/btn_add_task" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/btn_back_to_home" />
+  </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

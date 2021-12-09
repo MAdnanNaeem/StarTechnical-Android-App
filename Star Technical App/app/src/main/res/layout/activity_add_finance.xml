@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main_Classes.AddFinance">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Enter_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_margin="10dp"
+                android:background="#F4CE08"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Enter Finance Detail" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_hintdesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/Floating_hint_style">
+
+                <EditText
+                    android:id="@+id/Food_Expence"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:inputType="number"
+                    android:hint="Food Expence" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/Floating_hint_style">
+
+                <EditText
+                    android:id="@+id/Petroll_Expence"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:gravity="center_horizontal"
+                    android:hint="Petroll Expence" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/Floating_hint_style">
+
+                <EditText
+
+                    android:id="@+id/Acessories_Expence"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:gravity="center_horizontal"
+                    android:hint="Acessories Expence" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/Floating_hint_style">
+
+                <EditText
+
+                    android:id="@+id/Total_Amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:hint="Toatal Amount  " />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/Floating_hint_style"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/Floating_hint_style">
+
+                <EditText
+
+                    android:id="@+id/Task_No"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:hint="Task No" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+
+                android:id="@+id/btnAdd_Indb"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="#B6F308"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Add Data" />
+
+            <Button
+
+                android:id="@+id/btnAdd_Cancel"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_margin="20dp"
+                android:background="#B7F405"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Back To Finance" />
+
+           </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

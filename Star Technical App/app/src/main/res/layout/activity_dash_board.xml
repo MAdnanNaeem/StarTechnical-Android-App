@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.Dash_board_D"
+    android:background="#607D8B"
+    tools:openDrawer="start"
+    android:orientation="vertical"
+    android:id="@+id/drawr_layout">
+
+     <com.google.android.material.navigation.NavigationView
+
+         android:id="@+id/navigation_view"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="start"
+         app:headerLayout="@layout/main_header_navi"
+         app:menu="@menu/main_menunavi"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menu"
+            android:layout_marginStart="10dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/muhammad_arslan"
+            android:textSize="15sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/DAddTask"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            app:srcCompat="@drawable/addplus"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </ImageView>
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/r1st"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="93dp"
+                    android:layout_height="60dp"
+                    android:background="@color/light_pink"
+                    android:elevation="4dp">
+
+                    <ImageView
+                        android:id="@+id/imgfood"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/food">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/Dfood"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/foodexp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="102dp"
+                    android:layout_height="60dp"
+                    android:background="@color/light_pink"
+                    android:elevation="4dp">
+
+                    <ImageView
+                        android:id="@+id/imgpetroll"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/petroll">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/Dpetroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/petroll"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="98dp"
+                    android:layout_height="60dp"
+                    android:background="@color/light_pink"
+                    android:elevation="4dp">
+
+                    <ImageView
+                        android:id="@+id/imgAcessories"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/acesories">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/Dacesories"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/acesories">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:elevation="4dp"
+                    android:background="@color/light_pink">
+
+                    <ImageView
+                        android:id="@+id/imgTotal"
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/toatalamount"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/totalamount"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/totalexp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/light_pink"
+                    android:elevation="4dp">
+
+                    <ImageView
+                        android:id="@+id/imgprof"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/toatalamount"
+                       >
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/totalprofith"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/totalprofit">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal|center_vertical"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        -->
+<!--        <TextView-->
+<!--            android:id="@+id/textView"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="78dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal|fill_vertical"-->
+<!--            android:text="Expence" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="78dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal|center_vertical"-->
+<!--            android:text="accesories" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="78dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal|center_vertical"-->
+<!--            android:text="Recieved Amount" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="78dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal|center_vertical"-->
+<!--            android:text="Total Amount" />-->
+
+<!--    </LinearLayout>-->
+
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dashrecycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

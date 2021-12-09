@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "140923953244",
+    "firebase_url": "https://star-technical-default-rtdb.firebaseio.com",
+    "project_id": "star-technical",
+    "storage_bucket": "star-technical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140923953244:android:f198aaee106300a30f0699",
+        "android_client_info": {
+          "package_name": "com.example.startechnical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140923953244-0b936eqg8smuk4budlnssnk06r0cfrpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMJN5FJ8U-i1HKXKf_t6L4hhnkQrqJhUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140923953244-0b936eqg8smuk4budlnssnk06r0cfrpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

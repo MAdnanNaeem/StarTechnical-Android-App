@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main_Classes.Manage_Documents_D"
+    android:background="#808e95">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ChoosePic"
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:text="@string/add_pic">
+
+        </Button>
+
+        <EditText
+            android:id="@+id/PicName"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/enter_filename">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="518dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imgAdd"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:srcCompat="@drawable/addperson"
+            android:background="#ffe54c">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="146dp"
+            android:layout_height="58dp"
+            android:text="@string/upload_pic">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Rview"
+            android:layout_width="149dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/view_pics">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
